@@ -8,8 +8,8 @@ nltk.download('punkt')
 from nltk.tokenize import sent_tokenize
 
 def TF_QAG(text):
-    false_pipe = pipeline("text2text-generation",model=r"TF\models\TF_false_QG")
-    true_pipe = pipeline("text2text-generation",model=r"TF\models\TF_true_QG")
+    false_pipe = pipeline("text2text-generation",model="blago7daren/TF_false_QG")
+    true_pipe = pipeline("text2text-generation",model="blago7daren/TF_true_QG")
 
     # Divide text into passages with 3-5 sentences
     sentences = sent_tokenize(text)
