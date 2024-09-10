@@ -18,7 +18,7 @@ To fine-tune model for generating true/false statement about the passage I've di
 
 
 ## Deployment 
-Streamlit Cloud **Here will be the link**
+[Streamlit Cloud](https://nikitazuevblago-autoquiz-quizgui-xpgudz.streamlit.app/)
 
 ## Technologies Used
 
