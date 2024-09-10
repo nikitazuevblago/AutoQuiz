@@ -1,0 +1,10 @@
+# python 3.11.9, pip
+
+datasets
+transformers
+pandas
+nltk
+groq
+python-dotenv
+torch
+streamlit
