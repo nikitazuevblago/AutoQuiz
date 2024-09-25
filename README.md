@@ -26,17 +26,5 @@ To fine-tune model for generating true/false statement about the passage I've di
 - transformers
 - Groq API
 
-## Installation and Setup 
-```bash
-git clone ...
-```
-
 ## Result 
 ChatBot for automatic quiz creation. 
-
-
-## File structure
-
-
-
-## Possible problems:
