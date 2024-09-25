@@ -7,8 +7,8 @@ This project is aimed to help students and teachers. After reading the text just
 There are 3 types of questions which will be generated based on provided text.
 
 - True/False (TF)
-- Multiple Choice (MC)
-- Fill-in-the-blank (FB)
+- Multiple Choice (MC) (In the future)
+- Fill-in-the-blank (FB) (In the future)
 
 #### Preparing dataset with "passages"
 To generate quesionts and answers I needed a dataset with random stories and I've taken this ["glnmario/news-qa-summarization"](https://huggingface.co/datasets/glnmario/news-qa-summarization). I kept only one column with stories, splitted each story into shorter texts with 3-5 sentences and kept only "short_texts" which were in range between 350 and 1000 symbols. I did it to remove outliers and in the deployed version the given text to chatBOT will be splitted to passages and for each passage there will be a generated question and answer. Finally I got around 50k passages.
